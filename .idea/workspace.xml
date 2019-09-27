@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="27f33202-61fe-452f-823e-13e31cb2a3a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Grades/GradeDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Grades/GradeDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Grades/GradeForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Grades/GradeForm.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +18,11 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="dswhitely1" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="build-sprint-calculator" />
   </component>
   <component name="ProjectId" id="1RNne3ie9kNrNrOTV6K1DsWPdKQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -81,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569516512169</updated>
-      <workItem from="1569516513775" duration="27514000" />
+      <workItem from="1569516513775" duration="28803000" />
+      <workItem from="1569605294920" duration="2524000" />
     </task>
     <task id="LOCAL-00001" summary="Added Navigation and Unit 2 Grading Rubric">
       <created>1569549164432</created>
@@ -111,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569553760581</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Unit 4 - Java Complete">
+      <created>1569555367104</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569555367104</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated Grading Requirements">
+      <created>1569607148961</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569607148961</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +138,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -133,6 +151,8 @@
     <MESSAGE value="Moved the Header to above the image." />
     <MESSAGE value="Unit 3 Uploaded" />
     <MESSAGE value="Unit 4 - Node Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit 4 - Node Complete" />
+    <MESSAGE value="Unit 4 - Java Complete" />
+    <MESSAGE value="Updated Grading Requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Grading Requirements" />
   </component>
 </project>
