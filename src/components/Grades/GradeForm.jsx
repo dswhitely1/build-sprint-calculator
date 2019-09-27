@@ -5,6 +5,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Button from '@material-ui/core/Button';
+import { Typography } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -33,10 +34,19 @@ function GradeForm ({ initialState, data, header }) {
   const classes = useStyles();
   const [value, setValue] = useState(0);
   const [values, setValues] = useState(initialState);
+  const [flex, setFlex] = useState(false);
   useEffect(() => {
     setValue(Object.values(values)
       .reduce((acc, item) => acc + item), 0);
   }, [values]);
+
+  useEffect(()=>{
+    if (Object.values(values).includes(1)) {
+      setFlex(true)
+    } else {
+      setFlex(false);
+    }
+  }, [values])
 
   const handleChange = e => setValues(
     { ...values, [e.target.name]: e.target.value });
@@ -51,6 +61,7 @@ function GradeForm ({ initialState, data, header }) {
           color='secondary'
           onClick={() => setValues(initialState)}
         >Reset</Button>
+        {flex && <Typography variant="h3">Student Must Flex</Typography>}
       </div>
 
       <form
