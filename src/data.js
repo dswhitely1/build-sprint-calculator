@@ -179,7 +179,7 @@ export const unit4NodeObjectives = {
       description: 'Build a Web API',
       one: 'Student did not build a Web API with all of the required endpoints, or the endpoints that exist don\'t work',
       two: 'Student built a Web API following the REST architectural pattern wit code that is clean and organized using Express Routers.',
-      three: 'Student used incorporated middleware for code reuse and deployed the API to a hosting platform. The API is configured to dinamically load configuration and secrets using environment variables',
+      three: 'Student used incorporated middleware for code reuse and deployed the API to a hosting platform. The API is configured to dynamically load configuration and secrets using environment variables',
     },
     {
       title: 'Sprint 2',
@@ -191,6 +191,54 @@ export const unit4NodeObjectives = {
     {
       title: 'Sprint 3',
       description: 'Authentication and Testing',
+      one: 'Student did not add a way to authenticate users and restrict access to endpoints or the solution lacks automated testing',
+      two: 'Student added authentication and automated unit tests for core business logic',
+      three: 'Student added authorization and the project has end to end tests using a test database.',
+    },
+  ],
+};
+
+export const unit4JavaObjectives = {
+  header: 'Unit 4 - Web API: Java',
+  initialState: {
+    mvp: 0,
+    team: 0,
+    reactFundamentals: 0,
+    spaAjax: 0,
+    state: 0,
+  },
+  data: [
+    {
+      title: 'MVP',
+      description: 'MVP work - Project should incorporate all of the listed MVP features',
+      one: 'Student did not achieve all of the MVP features of the project',
+      two: 'Student work demonstrates that all MVP features were built',
+      three: 'Student\'s work demonstrates that all MVP features build and the student went above and beyond the project.',
+    },
+    {
+      title: 'Team Contribution',
+      description: 'Team Contribution',
+      one: 'Little to no contributions were made by this team member.',
+      two: 'Team member was collaborative, able to work in a team environment',
+      three: 'Pair programmed with the Web UI and Back end Architect',
+    },
+    {
+      title: 'Sprint 2 - APIs',
+      description: 'Sprint 2 - APIs',
+      one: 'Student did not build a Web API with all of the required endpoints, or the endpoints that exist don\'t work',
+      two: 'Student built a Web API following the REST architectural pattern with code that is clean and organized using the Spring Framework.',
+      three: 'Student incorporated services interfaces and appropriate repositories for code reuse and deployed the API to a hosting platform. The API is configured to dynamically load configuration and secrets using environment variables',
+    },
+    {
+      title: 'Sprint 2 RDBMS',
+      description: 'Sprint - 2 RDBMS',
+      one: 'Student did not add data persistence',
+      two: 'Student added data persistence with a normalized data model that ensures data integrity and consistency.',
+      three: 'Student migrated from H2 to use a server RDBMS, like Postgres or MySQL and incorporated seeding scripts in their solution.',
+    },
+    {
+      title: 'Sprint 2 & 3',
+      description: 'Sprint 2 & 3 Authentication and Testing',
       one: 'Student did not add a way to authenticate users and restrict access to endpoints or the solution lacks automated testing',
       two: 'Student added authentication and automated unit tests for core business logic',
       three: 'Student added authorization and the project has end to end tests using a test database.',

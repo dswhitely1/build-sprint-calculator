@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Grades/GradeDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Grades/GradeDetails.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
     </list>
@@ -80,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569516512169</updated>
-      <workItem from="1569516513775" duration="25879000" />
+      <workItem from="1569516513775" duration="27514000" />
     </task>
     <task id="LOCAL-00001" summary="Added Navigation and Unit 2 Grading Rubric">
       <created>1569549164432</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569553180284</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Unit 4 - Node Complete">
+      <created>1569553760581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569553760581</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,7 @@
     <MESSAGE value="Added Navigation and Unit 2 Grading Rubric" />
     <MESSAGE value="Moved the Header to above the image." />
     <MESSAGE value="Unit 3 Uploaded" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit 3 Uploaded" />
+    <MESSAGE value="Unit 4 - Node Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit 4 - Node Complete" />
   </component>
 </project>

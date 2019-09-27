@@ -13,6 +13,7 @@ import {
   unit1Objectives,
   unit2Objectives,
   unit3Objectives,
+  unit4JavaObjectives,
   unit4NodeObjectives,
 } from '../data';
 import Navigation from './Navigation';
@@ -58,8 +59,18 @@ function App () {
             path='/web-unit-2'
             render={() => <GradeContainer categories={unit2Objectives} />}
           />
-          <Route path='/web-unit-3' render={()=> <GradeContainer categories={unit3Objectives} /> } />
-          <Route path='/web-unit-4-node' render={()=> <GradeContainer categories={unit4NodeObjectives} /> } />
+          <Route
+            path='/web-unit-3'
+            render={() => <GradeContainer categories={unit3Objectives} />}
+          />
+          <Route
+            path='/web-unit-4-node'
+            render={() => <GradeContainer categories={unit4NodeObjectives} />}
+          />
+          <Route
+            path='/web-unit-4-java'
+            render={() => <GradeContainer categories={unit4JavaObjectives} />}
+          />
         </Container>
       </div>
     </MuiThemeProvider>

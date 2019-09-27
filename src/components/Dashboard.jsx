@@ -23,7 +23,7 @@ function Dashboard() {
     <div className={classes.root}>
       <Typography variant="h2" component="h1">Build Sprint Calculator</Typography>
       <img className={classes.image} src={Logo} alt="Lambda Logo" />
-      <Typography variant="h4" component="h3">Click Menu to Begin</Typography>
+      <Typography variant="h4" component="h3">Click WEB to Begin</Typography>
     </div>
     )
 }
