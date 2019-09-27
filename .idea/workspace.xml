@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27f33202-61fe-452f-823e-13e31cb2a3a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Grades/GradeContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Lambda_Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GradeDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Grades/GradeDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GradeForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Grades/GradeForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,8 +76,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569516512169</updated>
-      <workItem from="1569516513775" duration="21528000" />
+      <workItem from="1569516513775" duration="22037000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Navigation and Unit 2 Grading Rubric">
+      <created>1569549164432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569549164432</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +101,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Navigation and Unit 2 Grading Rubric" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Navigation and Unit 2 Grading Rubric" />
   </component>
 </project>

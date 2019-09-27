@@ -21,8 +21,8 @@ function Dashboard() {
   const classes=useStyles();
   return (
     <div className={classes.root}>
-      <img className={classes.image} src={Logo} alt="Lambda Logo" />
       <Typography variant="h2" component="h1">Unit Build Calculator</Typography>
+      <img className={classes.image} src={Logo} alt="Lambda Logo" />
       <Typography variant="h4" component="h3">Click Menu to Begin</Typography>
     </div>
     )
