@@ -36,6 +36,7 @@ function Navigation() {
       <MenuItem component={RouterLink} to="/web-unit-1" onClick={handleMenuClose}>Unit 1 - Web Fundamentals</MenuItem>
       <MenuItem component={RouterLink} to="/web-unit-2" onClick={handleMenuClose}>Unit 2 - Web Applications 1</MenuItem>
       <MenuItem component={RouterLink} to="/web-unit-3" onClick={handleMenuClose}>Unit 3 - Web Applications 2</MenuItem>
+      <MenuItem component={RouterLink} to="/web-unit-4-node" onClick={handleMenuClose}>{`Unit 4 - Web API: Node`}</MenuItem>
     </Menu>
   )
   return (

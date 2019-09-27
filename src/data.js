@@ -149,3 +149,51 @@ export const unit3Objectives = {
     },
   ],
 };
+
+export const unit4NodeObjectives = {
+  header: 'Unit 4 - Web API: Node',
+  initialState: {
+    mvp: 0,
+    team: 0,
+    reactFundamentals: 0,
+    spaAjax: 0,
+    state: 0,
+  },
+  data: [
+    {
+      title: 'MVP',
+      description: 'MVP work - Project should incorporate all of the listed MVP features',
+      one: 'Student did not achieve all of the MVP features of the project',
+      two: 'Student work demonstrates that all MVP features were built',
+      three: 'Student\'s work demonstrates that all MVP features build and the student went above and beyond the project.',
+    },
+    {
+      title: 'Team Contribution',
+      description: 'Team Contribution',
+      one: 'Little to no contributions were made by this team member.',
+      two: 'Team member was collaborative, able to work in a team environment',
+      three: 'Pair programmed with the Web UI and Back end Architect',
+    },
+    {
+      title: 'Sprint 1',
+      description: 'Build a Web API',
+      one: 'Student did not build a Web API with all of the required endpoints, or the endpoints that exist don\'t work',
+      two: 'Student built a Web API following the REST architectural pattern wit code that is clean and organized using Express Routers.',
+      three: 'Student used incorporated middleware for code reuse and deployed the API to a hosting platform. The API is configured to dinamically load configuration and secrets using environment variables',
+    },
+    {
+      title: 'Sprint 2',
+      description: 'Adding Data Persistence',
+      one: 'Student did not add data persistence',
+      two: 'Student added data persistence with a normalized data model that ensures data integrity and consistency.',
+      three: 'Student migrated from SQLite to use a server RDBMS, like Postgres or MySQL and incorporated Knex migration and or seeding scripts to their solution.',
+    },
+    {
+      title: 'Sprint 3',
+      description: 'Authentication and Testing',
+      one: 'Student did not add a way to authenticate users and restrict access to endpoints or the solution lacks automated testing',
+      two: 'Student added authentication and automated unit tests for core business logic',
+      three: 'Student added authorization and the project has end to end tests using a test database.',
+    },
+  ],
+};
