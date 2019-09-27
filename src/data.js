@@ -99,5 +99,53 @@ export const unit2Objectives = {
       two: 'Student implemented Read operations using either Axios or Fetch to display 3rd party data on page.  Route management properly installed and used to show top level pages as well as nested views where necessary.  Data displayed on page is properly laid out in a modern easy to interperate fashion.  Seemless integration of UI static landing page now incorporated.',
       three: 'Not only are standard network requesting techniques employed, the code is organized in such a fashion that the student demonstrated proper use of container vs presentational components or other industry standards, conventions or patterns.',
     },
-  ]
-}
+  ],
+};
+
+export const unit3Objectives = {
+  header: 'Unit 3 - Web Applications 2',
+  initialState: {
+    mvp: 0,
+    team: 0,
+    reactFundamentals: 0,
+    spaAjax: 0,
+    state: 0,
+  },
+  data: [
+    {
+      title: 'MVP',
+      description: 'MVP work - Project should incorporate all of the listed MVP features',
+      one: 'Student did not achieve all of the MVP features of the project',
+      two: 'Student work demonstrates that all MVP features were built',
+      three: 'Student\'s work demonstrates that all MVP features build and the student went above and beyond the project.',
+    },
+    {
+      title: 'Team Contribution',
+      description: 'Team Contribution',
+      one: 'Little to no contributions were made by this team member.',
+      two: 'Team member was collaborative, able to work in a team environment',
+      three: 'Pair programmed with the Web UI and Back end Architect',
+    },
+    {
+      title: 'React Fundamentals',
+      description: 'React Fundamentals',
+      one: 'Student failed to create a dynamically rendered react application.',
+      two: 'Student created a react application, built out functional and class components and used Array methods to dynamically render HTML elements.',
+      three: 'Code is organized in a clean compartmentalized manner. It is easy to discern what components make up what pieces of the application.',
+    },
+    {
+      title: 'SPA - AJAX',
+      description: 'SPA - AJAX',
+      one: 'React router was not used, complete CRUD operations are not found throughout the application',
+      two: 'Student was able to build a full-functional SPA using React-router. CRUD operations drive the application.',
+      three: 'Seemless integration of UI static landing page now incorporated. Demonstrated proper use of container vs presentational components.',
+    },
+    {
+      title: 'State',
+      description: 'State Management',
+      one: 'The state management system has either not been implemented, or is incoherent',
+      two: 'Student has implemented a state management system that makes sense for the project. It is organized well and implemented correctly',
+      three: 'Student showed the ability to manage state in a very coherent system at all levels of the app - global state management, component tree state management, and individual component management. The system is easy to understand and use. Student may have also architected it in such a way that it is reusable for a lot of the state management needs of the app.',
+    },
+  ],
+};

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Link as RouterLink} from 'react-router-dom';
+import {NavLink as RouterLink} from 'react-router-dom';
 import {makeStyles} from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -35,6 +35,7 @@ function Navigation() {
       <MenuItem component={RouterLink} to="/" onClick={handleMenuClose}>Home</MenuItem>
       <MenuItem component={RouterLink} to="/web-unit-1" onClick={handleMenuClose}>Unit 1 - Web Fundamentals</MenuItem>
       <MenuItem component={RouterLink} to="/web-unit-2" onClick={handleMenuClose}>Unit 2 - Web Applications 1</MenuItem>
+      <MenuItem component={RouterLink} to="/web-unit-3" onClick={handleMenuClose}>Unit 3 - Web Applications 2</MenuItem>
     </Menu>
   )
   return (
@@ -47,7 +48,7 @@ function Navigation() {
           <Typography variant='h6' className={classes.title}>
             Build Sprint Calculator
           </Typography>
-          <Button color="inherit" onClick={handleProfileMenuOpen}>Menu</Button>
+          <Button color="inherit" onClick={handleProfileMenuOpen}>WEB</Button>
         </Toolbar>
       </AppBar>
       {renderMenu}
