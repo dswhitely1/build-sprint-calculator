@@ -40,19 +40,26 @@ function GradeForm ({ initialState, data, header }) {
       .reduce((acc, item) => acc + item), 0);
   }, [values]);
 
-  useEffect(()=>{
-    if (Object.values(values).includes(1)) {
-      setFlex(true)
+  useEffect(() => {
+    if (Object.values(values)
+      .includes(1)) {
+      setFlex(true);
     } else {
       setFlex(false);
     }
-  }, [values])
+  }, [values]);
 
   const handleChange = e => setValues(
     { ...values, [e.target.name]: e.target.value });
   return (
     <>
       <h1 className={classes.header}>{header}</h1>
+      {flex && <Typography
+        variant='h4'
+        component='h2'
+        className={classes.header}
+      >Student MUST be put into consideration for instructor
+        evaluation.</Typography>}
       <div className={classes.scores}>
         <h2>{`Overall Score: ${value}`}</h2>
         <h2>{`Average Score: ${Math.round(value / data.length)}`}</h2>
@@ -61,7 +68,7 @@ function GradeForm ({ initialState, data, header }) {
           color='secondary'
           onClick={() => setValues(initialState)}
         >Reset</Button>
-        {flex && <Typography variant="h3">Student Must Flex</Typography>}
+
       </div>
 
       <form
