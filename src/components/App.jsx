@@ -9,7 +9,13 @@ import {
   makeStyles,
   MuiThemeProvider,
 } from '@material-ui/core/styles';
-import { unit1Objectives, unit2Objectives } from '../data';
+import {
+  unit1Objectives,
+  unit2Objectives,
+  unit3Objectives,
+  unit4JavaObjectives,
+  unit4NodeObjectives,
+} from '../data';
 import Navigation from './Navigation';
 
 const theme = createMuiTheme({
@@ -52,6 +58,18 @@ function App () {
           <Route
             path='/web-unit-2'
             render={() => <GradeContainer categories={unit2Objectives} />}
+          />
+          <Route
+            path='/web-unit-3'
+            render={() => <GradeContainer categories={unit3Objectives} />}
+          />
+          <Route
+            path='/web-unit-4-node'
+            render={() => <GradeContainer categories={unit4NodeObjectives} />}
+          />
+          <Route
+            path='/web-unit-4-java'
+            render={() => <GradeContainer categories={unit4JavaObjectives} />}
           />
         </Container>
       </div>
