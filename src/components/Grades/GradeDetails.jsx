@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -6,7 +6,6 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import { objectives } from '../data';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -19,8 +18,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-function GradeDetails () {
-  const [categories] = useState(objectives);
+function GradeDetails ({ categories }) {
   const classes = useStyles();
   return (
     <Paper className={classes.root}>
@@ -36,7 +34,7 @@ function GradeDetails () {
         <TableBody>
           {categories.map((category, i) => (
             <TableRow key={i}>
-              <TableCell>{category.title}</TableCell>
+              <TableCell>{category.description}</TableCell>
               <TableCell>{category.one}</TableCell>
               <TableCell>{category.two}</TableCell>
               <TableCell>{category.three}</TableCell>
